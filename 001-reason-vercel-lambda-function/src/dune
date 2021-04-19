@@ -1,0 +1,4 @@
+(executable
+ ; https://dune.readthedocs.io/en/stable/
+ (name doglambda)
+ (libraries logs.fmt fmt.tty vercel piaf))

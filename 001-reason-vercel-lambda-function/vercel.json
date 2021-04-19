@@ -1,0 +1,16 @@
+{
+  "public": true,
+  "version": 2,
+  "builds": [
+    {
+      "src": "bootstrap",
+      "use": "now-custom-runtime"
+    }
+  ],
+  "routes": [
+    {
+      "src": "^/.*",
+      "dest": "/bootstrap"
+    }
+  ]
+}
