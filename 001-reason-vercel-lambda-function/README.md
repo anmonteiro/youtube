@@ -28,7 +28,7 @@ dune build @all`.
 Deploying OCaml code to Vercel is the more complicated part here. There are a
 few things going on:
 
-- Vercel runs on AWS Lambda, which in turn are running on Amazon Linux boxes
+- Vercel runs on AWS Lambda, which in turn runs on Amazon Linux boxes
 - We use e.g. a dependency on OpenSSL. In order to avoid depending on runtime
   packages, we just build a statically linked binary.
 
