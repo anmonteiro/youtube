@@ -37,7 +37,7 @@ few things going on:
 - Run `esy b dune build src/doglambda.exe --profile=static` to build a
   statically linked executable. Look in the root [`dune`](./dune) for the profile
   definition (basically passing `-ccopt -static` to `ocamlopt`).
-- Run `_build/default/src/doglambda.exe ./bootstrap` (our
+- Run `cp _build/default/src/doglambda.exe ./bootstrap` (our
   [`vercel.json`](./vercel.json)) expects an executable named `bootstrap`.
 
 ### Other OSes
